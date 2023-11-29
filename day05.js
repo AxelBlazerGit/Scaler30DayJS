@@ -1,7 +1,7 @@
 // Challenge 5: 
 // Write a JavaScript exercise to get the filename extension.
 function getExtension(fileName){
-    const $breakUp=fileName.split(' ');
+    const $breakUp=fileName.split('.');
     if($breakUp.length>1){
         return $breakUp[$breakUp.length-1];
     }else{
