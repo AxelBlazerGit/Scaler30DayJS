@@ -9,3 +9,11 @@
 // The find() method returns the value of the first element in the array that satisfies the provided testing function.
 // Solution Approach:
 // Use the find() method and provide a callback that checks if the number is negative.
+
+function findFirstNegative(numbers) {
+    return numbers.find((number) => number < 0);
+}
+const array1 = [1, 2, -3, 4, 5];
+const array2 = [1, 2, 3, 4, 5];
+console.log(findFirstNegative(array1)); 
+console.log(findFirstNegative(array2));
