@@ -9,3 +9,10 @@
 // The reduce() method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
 // Solution Approach:
 // // Initialize the reduce() method with an initial accumulator value of 0. Then, for each value in the array, add it to the accumulator.
+function sumArray(numbers) {
+    return numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+}
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [10, 20, 30];
+console.log(sumArray(array1)); 
+console.log(sumArray(array2)); 
