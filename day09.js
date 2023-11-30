@@ -15,4 +15,4 @@ function firstUnrepeatedChar(str) {
 }
 const str = 'abacddbec';
 const result = firstUnrepeatedChar(str);
-console.log(result); 
+console.log(result); //
